@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+.top{width: 100%; height: 40px; background:#333;}
+.top .con{width: 1226px; height: 40px; margin:0 auto; /*background: blue;*/}     /*    居中*/
+
+.top .con .nav{height: 40px; line-height: 40px; float: left;}	/*字体上下居中*/
+.top .con .nav a{color:#b0b0b0; text-decoration: none; background: ;}  /*去掉下划线*/
+.top .con .nav a:hover{color: #fff;}
+.top .con .nav .shu{margin: 0 0.5em; color: #424242;} /*em字体单位*/
+
+.top .con .nav-scar{width: 120px; height: 40px; line-height: 40px; text-align: center;
+					background: #424242; float: right; margin-left: 15px;}
+.top .con .nav-scar a{color: #b0b0b0; text-decoration: none;}
+.top .con .nav-scar a:hover{color: #f9ae2c;}
+.top .con .nav-scar:hover{background: #fff;}
+
+.top .con .nav-denglu{height: 40px; line-height: 40px; float:right;}
+.top .con .nav-denglu a{color:#b0b0b0; text-decoration: none; background: ;}  /*去掉下划线*/
+.top .con .nav-denglu a:hover{color: #fff;}
+.top .con .nav-denglu .shu{margin: 0 0.5em; color: #424242;}
+
+
+.top2{width: 100%; height: 100px; background:#000;}
+.top2 .con{width: 1226px; height: 100px; background: red; margin: 0 auto;}
+.top2 .con .logo{width: 250px; height: 100px; float: left;}
+.top2 .con .logo a{line-height: 100px;}
+.top2 .con .logo a img{vertical-align: middle;}   /*25、26上下居中*/
